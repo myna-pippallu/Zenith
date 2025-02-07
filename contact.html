@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact- Zenith</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon">
+  </head>
+
+  <body id="body-scroll">
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container">
+          <div class="navbar-logo">
+            <a class="navbar-brand logo mx-0" href="index.html"
+              ><img src="assets/image/footerlogo.png" alt="Logo"
+            /></a>
+            <a
+              href="#"
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <div
+                class="menu-btn-2"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+                onclick="menuBtnFunction(this)"
+              >
+                <span></span>
+              </div>
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4 gap-4">
+              <li class="nav-item mt-4 mt-lg-0">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="service.html"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pricing.html"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="gallery.html"
+                  >Gallery</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="blog.html"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+
+            <div class="navbar-btn gap-4 d-flex">
+              <a href="#" class="btn btn-primary" type="submit"
+                >CONTACT US
+                <i style="color: #fff" class="bx bx-right-arrow-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="hero-about"
+        style="background-image: url(assets/image/banner.jpg)"
+      >
+        <div class="container text-center">
+          <h1 class="mx-auto">Contact Us</h1>
+          <p><a href="index.html">
+            Home /</a>
+           <a href="contact.html"> <span>Contact</span>
+          </a></p>
+        </div>
+      </section>
+
+      <section class="contact" style="background-color: #dee9ef; overflow: hidden;">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-4" data-aos="zoom-out-right">
+              <div class="company-info">
+                <h2 class="mb-4">Contact Details</h2>
+                <p class="mb-4">
+                  When you choose Zenith, you're not just hiring a consulting
+                  firm - you're partnering with a team of dedicated
+                  professionals who are invested in your success.
+                </p>
+                <ul class="ps-0" style="list-style-type: none">
+                  <li class="mb-3">
+                    <i class="fa fa-road pe-2"></i> 45 Main Street
+                  </li>
+                  <li class="mb-3">
+                    <a href="tel:+91 98765 43210"><i class="fa fa-phone pe-2"></i> +91 98765 43210</a>
+                  </li>
+                  <li> <a href="mailto:zenith@gmail.com"><i class="fa fa-envelope pe-2"></i> zenith@gmail.com</li></a>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-8 mt-5 mt-md-0" data-aos="zoom-out-left">
+              <section class="contact-form">
+                <form>
+                  <div class="row">
+                    <div class="col-12 col-sm-6 mb-3">
+                      <label for="exampleInputName1" class="form-label"
+                        >Name *</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleInputName1"
+                        aria-describedby="NameHelp"
+                        required
+                        placeholder="Your Name"
+                      />
+                    </div>
+                    <div class="col-12 col-sm-6 mb-3">
+                      <label for="exampleInputEmail1" class="form-label"
+                        >Email *</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        required
+                        placeholder="Your Email"
+                      />
+                    </div>
+                    <div class="col-12 col-sm-6 mb-3">
+                      <label for="exampleInputMobile1" class="form-label"
+                        >Mobile No *</label
+                      >
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="exampleInputMobile1"
+                        aria-describedby="MobileHelp"
+                        required
+                        placeholder="Your Mobile No"
+                      />
+                    </div>
+                    <div class="col-12 col-sm-6 mb-3">
+                      <label for="exampleInputService1" class="form-label"
+                        >Plan *</label
+                      >
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                        name="plan"
+                        required
+                      >
+                        <option selected>--- Select Service ---</option>
+                        <option value="Basic Plan">
+                          Basic Plan
+                        </option>
+                        <option value="Standard Plan">
+                          Standard Plan
+                        </option>
+                        <option value="Premium Plan">
+                         Premium Plan
+                        </option>
+                      </select>
+                    </div>
+                    <div class="col-12 col-lg-12 mb-3">
+                      <label for="exampleInputMessage1" class="form-label"
+                        >Message *</label
+                      >
+                      <textarea
+                        class="form-control"
+                        placeholder="Message"
+                        id="floatingTextarea"
+                        rows="4"
+                      ></textarea>
+                    </div>
+                    <div class="col-12 col-lg-12 mb-3 position-relative">
+                      <button type="submit" class="btn btn-primary mt-3">
+                        REGISTER
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- map section  -->
+       
+      <section class="mapmap py-0" style="background-color: #dee9ef">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12" data-aos="zoom-in">
+              <div class="map-container container-fluid">
+                <iframe
+                  class="map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.211711531581!2d76.28554381135928!3d9.916318090143942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b087318890ff47b%3A0x20f4791e4dd9e378!2sZenith!5e0!3m2!1sen!2sin!4v1738316355892!5m2!1sen!2sin"
+                  frameborder="0"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- visit section  -->
+
+      <section class="visit" data-aos="fade-down">
+        <div class="container">
+          <div class="title text-center">
+            <h2>Visit  <span class="span-text-colour">Our Office</span></h2>
+            <p class="mb-5">
+              Zenith has more than 9,000 offices of all sizes and all potential
+              of session.
+            </p>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-12 col-sm-4">
+             <div class="office ">
+              <a class="hover-fx"><i class="fa-solid fa-location-dot"></i></a>
+                <h5 class="mt-3 mb-2">Our Address</h5>
+                <p>1301 2nd Ave, Seattle, MC Road,<br>Kottayam, Kerala, India, 686631</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <div class="office">
+                <a class="hover-fx"><i class="fa-solid fa-phone"></i></i></a>
+                <h5 class="mt-3 mb-2">Contact Info</h5>
+               <p class="mb-1">Open a chat or give us call at</p>
+               <a href="tel:+91 87996 54368"><h6>+91 87996 54368</h6></a>
+              </div>
+           </div>
+            <div class="col-12 col-sm-4">
+              <div class="office">
+                <a class="hover-fx"><i class="fa-solid fa-envelope"></i></i></a>
+               <h5 class="mt-3 mb-2">Email</h5>
+                <p class="mb-1">Contact Us through Email</p>
+               <a href="mailto:zenith@gmail.com"> <h6>zenith@gmail.com</h6></a>
+             </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- .expert section  -->
+
+      <section class="expert py-5" style="background-color: #dee9ef">
+        <div class="container">
+          <div class="expert-contact" data-aos="flip-down" >
+              <div class="row align-items-center">
+                <div class="col-12 col-lg-6 ">
+                  <h5 class="mb-3 mt-3">Subscribe Newsletter</h5>
+                  <p class="mb-0 mb-lg-4 ">
+                    Explore our news and blog content today and take the first step
+                    towards unlocking your full business potential.
+                  </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <form class="expert-form">
+                    <div class="row px-0">
+                        <div class="col-12 col-xxl-12 pe-md-3 px-xxl-5">
+                          <input type="email" placeholder="Email..." class="form-control" id="exampleInputEmail1" />
+                        </div>
+                        <div class="col-12  col-xxl-12 mt-4 mt-md-3 px-xxl-5">
+                          <!-- button  -->
+                          <button class="btn btn-primary" href="#price">
+                            SUBSCRIBE
+                          </button>
+                        </div>
+                 </div>
+                    </div>
+    
+                  </form>
+    
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <ul class="ms-0 ps-0" style="list-style-type: none">
+              <li>
+                <a href="index.html"
+                  ><img
+                    class="mb-3"
+                    src="assets/image/footerlogo.png"
+                    alt="Logo"
+                /></a>
+              </li>
+              <li class="mb-3 footer-company">
+                Lorem ipsum dolor sit amet consectetur adipiscing mauris
+                volutpat ante ut sagittis efficitur arcu diam faucibus eli quis
+                rhoncus enim augue ut orci donec.
+              </li>
+              <li class="mb-3">Follow Us On:</li>
+              <div class="d-flex gap-3 hero-btn">
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><img src="assets/image/home logo1.png" alt=""
+                /></a>
+                <a href="https://www.youtube.com/" target="_blank"
+                  ><img src="assets/image/home logo2.png" alt=""
+                /></a>
+                <a href="https://x.com/" target="_blank"
+                  ><img src="assets/image/home logo3.png" alt=""
+                /></a>
+                <a href="https://in.linkedin.com/" target="_blank"
+                  ><img src="assets/image/home logo4.png" alt=""
+                /></a>
+              </div>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-3 ps-3 ps-lg-5 mt-4 mt-sm-0 mt-md-0">
+            <h6 class="mt-3">Company</h6>
+            <ul class="ms-0 ps-0" style="list-style-type: none">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Our Team</li>
+              <li>Services</li>
+              <li>Contact Us</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-3 mt-4 mt-md-0">
+            <h6 class="mt-3">Services</h6>
+            <ul class="ms-0 ps-0" style="list-style-type: none">
+              <li>Strategic Planning Services</li>
+              <li>Market Research and Analysis</li>
+              <li>Financial Consulting</li>
+              <li>Operations Improvement</li>
+              <li>Organizational Development</li>
+              <li>Change Management</li>
+            </ul>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-lg-3 ps-3 ps-lg-3 ps-xxl-0 mt-4 mt-md-0"
+          >
+            <h6 class="mt-3">Subscribe Newslatter</h6>
+            <ul class="ms-0 ps-0" style="list-style-type: none">
+              <li>
+                Explore our news and blog content today and take the first step
+                towards unlocking your full business potential.
+              </li>
+            </ul>
+            <form>
+              <input
+                type="email"
+                placeholder="Email"
+                class="form-control mb-4"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="content-footer d-flex justify-content-between mt-4 mt-md-4">
+          <p class="mb-0">Copyright © 2024 Zenith. All Rights Reserved.</p>
+          <p class="mb-0">Privacy & Cookie Policy</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- js link  -->
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({duration: 1000, once: true});
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
