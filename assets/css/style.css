@@ -375,7 +375,7 @@ header .navbar-collapse ul li .nav-link:hover::after {
 .modal .modal-content form textarea {
   resize: none;
 }
-.modal .modal-content .btn-primary {
+.modal .modal-content .btn-secondary {
   width: 100%;
 }
 
