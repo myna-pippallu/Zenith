@@ -696,6 +696,11 @@ header .navbar-collapse ul li .nav-link:hover::after {
   top: 0;
   font-size: 45px;
 }
+@media (max-width: 1199.98px) {
+  .about-us .statistics .statistics1 .count::after {
+    font-size: 35px;
+  }
+}
 
 @media (max-width: 991.98px) {
   .service .title {

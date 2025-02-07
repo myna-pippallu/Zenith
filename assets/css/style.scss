@@ -750,6 +750,10 @@ header {
           position: absolute;
           top: 0;
           font-size: 45px;
+
+          @media (max-width: 1199.98px) {
+            font-size: 35px;
+          }
         }
       }
     }
