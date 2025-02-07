@@ -105,9 +105,14 @@ h1 {
     font-size: 49px !important;
   }
 }
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 43px !important;
+  }
+}
 @media (max-width: 575.98px) {
   h1 {
-    font-size: 42px !important;
+    font-size: 38px !important;
   }
 }
 
@@ -122,7 +127,7 @@ h2 {
 }
 @media (max-width: 575.98px) {
   h2 {
-    font-size: 40px !important;
+    font-size: 34px !important;
   }
 }
 
@@ -324,6 +329,56 @@ header .navbar-collapse ul li .nav-link:hover::after {
   }
 }
 
+.modal .modal-content {
+  padding: 25px 20px !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 16px !important;
+}
+@media (max-width: 575.98px) {
+  .modal .modal-content {
+    padding: 15px 10px !important;
+  }
+}
+.modal .modal-content h6 {
+  font-size: 24px !important;
+  color: #0096c7 !important;
+}
+.modal .modal-content form label {
+  font-size: 16px !important;
+  margin-bottom: 10px !important;
+}
+@media (max-width: 1199.93px) {
+  .modal .modal-content form label {
+    font-size: 14px !important;
+  }
+}
+.modal .modal-content form .form-select:focus {
+  border-color: #0096c7;
+  box-shadow: 0 0 5px 0.15rem rgba(0, 149, 199, 0.598);
+}
+.modal .modal-content form .form-control:focus {
+  box-shadow: 0 0 5px 0.15rem rgba(0, 149, 199, 0.598);
+}
+.modal .modal-content form input,
+.modal .modal-content form select,
+.modal .modal-content form textarea {
+  border: 1px solid #0096c7 !important;
+  padding: 10px 16px !important;
+}
+@media (max-width: 1199.93px) {
+  .modal .modal-content form input,
+  .modal .modal-content form select,
+  .modal .modal-content form textarea {
+    padding: 7px 11px !important;
+  }
+}
+.modal .modal-content form textarea {
+  resize: none;
+}
+.modal .modal-content .btn-primary {
+  width: 100%;
+}
+
 .hero {
   padding: 150px 0px 180px !important;
   margin-top: 40px;
@@ -363,6 +418,11 @@ header .navbar-collapse ul li .nav-link:hover::after {
     max-width: none !important;
   }
 }
+@media (max-width: 575.98px) {
+  .hero .btn {
+    padding: 12px 18px !important;
+  }
+}
 .hero .hero-icon a {
   transition: all 0.5s ease;
 }
@@ -381,6 +441,11 @@ header .navbar-collapse ul li .nav-link:hover::after {
   .hero .img-hero {
     text-align: center !important;
     padding-right: 0rem !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .hero .img-hero {
+    display: none !important;
   }
 }
 .hero .img-hero .hero-customer {
@@ -431,6 +496,7 @@ header .navbar-collapse ul li .nav-link:hover::after {
 @media (max-width: 767.98px) {
   .hero .img-hero .hero-customer {
     left: 0rem;
+    padding: 15px 24px !important;
   }
 }
 @media (max-width: 575.98px) {
@@ -519,6 +585,7 @@ header .navbar-collapse ul li .nav-link:hover::after {
 @media (max-width: 767.98px) {
   .hero .img-hero .hero-star {
     right: 1rem;
+    padding: 12px 25px !important;
   }
 }
 @media (max-width: 575.98px) {
@@ -546,6 +613,14 @@ header .navbar-collapse ul li .nav-link:hover::after {
 }
 .hero .img-hero .hero-star h3 {
   margin-bottom: 5px;
+}
+.hero .img-hero-small {
+  display: none;
+}
+@media (max-width: 575.98px) {
+  .hero .img-hero-small {
+    display: block !important;
+  }
 }
 
 .hero-about {
@@ -947,6 +1022,7 @@ header .navbar-collapse ul li .nav-link:hover::after {
 @media (max-width: 575.98px) {
   .pricing .card {
     margin: 0 !important;
+    margin: 0 1rem !important;
   }
 }
 .pricing .card .card-heading {
