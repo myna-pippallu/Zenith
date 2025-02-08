@@ -19,19 +19,19 @@ var $slickE2 = $(".logocenter");
 // testimonial section 
 
 $slickEl.slick({
-  centerMode: true,
+  centerMode: false,
   slidesToShow: 3,
   focusOnSelect: true,
   dots: false,
   arrows: false,
   autoplay: true,
   autoplaySpeed: 1500,
-  slidesToScroll: 3,
+  slidesToScroll: 1,
   infinite: true,
 
   responsive: [
     {
-      breakpoint: 1199.98,
+      breakpoint: 1649.98,
       settings: {
         arrows: false,
         centerMode: false,
@@ -114,7 +114,7 @@ $slickE2.slick({
       breakpoint: 480.98,
       settings: {
         arrows: false,
-        centerMode: true,
+        centerMode: false,
         centerPadding: "40px",
         slidesToShow: 1,
       },
